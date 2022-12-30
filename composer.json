@@ -27,6 +27,6 @@
         "sort-packages": true
     },
     "require": {
-        "arokettu/torrent-file": "^2.4"
+        "arokettu/torrent-file": "^3.2"
     }
 }
