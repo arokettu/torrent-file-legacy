@@ -3,7 +3,7 @@
     "description": "A class to work with torrent files",
     "keywords": ["bittorrent", "torrent", "torrent-file"],
     "homepage": "https://sandfox.dev/php/torrent-file.html",
-    "type": "metapackage",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -26,7 +26,12 @@
         },
         "sort-packages": true
     },
+    "autoload": {
+        "files": [
+            "autoload.php"
+        ]
+    },
     "require": {
-        "arokettu/torrent-file": "^3.2"
+        "arokettu/torrent-file": "^4.0.1"
     }
 }
